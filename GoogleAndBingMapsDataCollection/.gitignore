@@ -1,0 +1,71 @@
+# Arquivos de compilação Python
+__pycache__/
+*.pyc
+
+# Arquivos do ambiente virtual (gerados pelo virtualenv ou venv)
+venv/
+env/
+*.pyc
+__pycache__/
+.Python
+
+# Arquivos de log e cache
+logs/
+*.log
+*.log.*
+__pycache__/
+.cache/
+*.swp
+
+# Arquivos de configuração
+*.ini
+*.cfg
+*.conf
+
+# Arquivos gerados por IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de saída (resultados de testes, cobertura etc.)
+htmlcov/
+.coverage
+.tox/
+.coverage.*
+.cache
+
+# Dependências geradas
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Envs (Arquivos de configuração de ambiente)
+.env
+
+# Dependências Python
+lib/
+lib64/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Cache de pacotes
+__pycache__/
+
+# Outros arquivos gerais
+*.swp
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração específicos para o sistema operacional (ex: .DS_Store no macOS)
+Desktop.ini
+ehthumbs.db
+Icon?
+
+# Ignore arquivos de saída de notebooks Jupyter e trabalhos temporários
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+#*.html
+#*.pdf
+*.csv
